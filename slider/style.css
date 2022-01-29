@@ -1,0 +1,1098 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.parent{
+	width: 100%;
+	background-color: black;
+}
+.logo{
+	padding-top: 27px;
+	padding-bottom: 8px;
+}
+.logo a{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+.hdr{
+	display: flex;
+	justify-content: flex-end;
+}
+.nav{
+	 padding-bottom: 21px;
+     padding-top: 21px;
+     padding-right: 10px;
+}
+.nav li a{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.nav li a:hover{
+	border-bottom: 2px solid white;
+	padding-bottom: 2px;
+}
+.ch button{
+	padding: 8px 28px 8px 29px;
+	background-color: #023688;
+	color: white;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 27px;
+}
+.ch{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.ch button:hover{
+	background-color: white;
+	color: black;
+}
+.ch img{
+	padding-left: 20px;
+}
+#toggle i{
+	color: white;
+	margin-top: 20px;
+	display: none;
+}
+.banr{
+	width: 100%;
+	padding-top: 229px;
+	padding-bottom: 229px;
+	background-image: url('img/Rectangle 119.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.our h1{
+	text-transform: uppercase;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 71px;
+    color: white;
+}
+.our button{
+	margin-top: 6px;
+	padding: 8px 29px 8px 29px;
+	background-color: #023688;
+	color: white;
+	border-radius: 29px;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.our button:hover{
+	background-color: white;
+	color: black;
+}
+.services{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 200px;
+	background-image: url('img/Group 23.png');
+	background-repeat: no-repeat;background-size: cover;
+	background-position: center;
+}
+.ch1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.ch1 h1{
+	padding-bottom: 30px;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #2D2D2D;
+}
+.innr{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+.innr img{
+	width: 100%;
+	height: 100%;
+}
+.inrtxt{
+	padding: 29px 79px 0px 79px;
+	background: #ffffff;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    margin-bottom: -90px;
+}
+.inrtxt h4{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.inrtxt p{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5B5B5B;
+    padding-bottom: 29px;
+}
+.inrtxt p span{
+    color: #000000;
+    padding-left: 10px;
+}
+.inrtxt button{
+	padding: 8px 50px 8px 40px;
+	background-color: #023688;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-bottom: -25px;
+    display: none;
+}
+.innr:hover button{
+	display: block;
+}
+.innr:hover span{
+	color: #023688;
+}
+.about{
+	width: 100%;
+	padding-bottom: 68px;
+	padding-top: 68px;
+	background-image: url('img/Group 24 (1).png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ch2{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+.ch2 h5{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+.ch2 h1{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.ch4{
+	font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.ch5{
+	font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.ch2 button{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 11px 23px 11px 23px;
+    border-radius: 30px;
+    background-color: white;
+}
+.ch2 button:hover{
+	background-color: #023688;
+	color: white;
+}
+.make{
+	width: 100%;
+	padding-top: 99px;
+	padding-bottom: 99px;
+	background-image: url('img/image 5.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ch6{
+	padding-left: 40px;
+}
+.ch7{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 20px;
+}
+.ch7 h1{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    color: #000F26;
+}
+.ch7 p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.ch7 input{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7E7E7E;
+    padding: 11px 25px 11px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+.ch7 input[type=number]{
+	margin-left: 30px;
+}
+#last{
+	margin-left: 30px;
+}
+.ch7 button{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #023688;
+    border-radius: 36px;
+    padding: 11px 23px 11px 23px;
+    margin-left: 306px;
+}
+.ch7 button:hover{
+	background-color: white;
+	color: black;
+}
+.ch7 .comment{
+	margin-bottom: 30px;
+	padding: 11px 270px 58px 10px;
+}
+.slide{
+	width: 100%;
+	padding-top: 100px;
+}
+.ch8 h1{
+	padding-bottom: 50px;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #2D2D2D;
+}
+.link{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #0E0320;
+}
+.ch10 i{
+	padding-right: 20px;
+	font-size: 15px;
+	color: #023688;
+}
+.ch10 p{
+	font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 0px;
+}
+.ch10 h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.ch10 h1{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.ch10 h3{
+	font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.ch11 h1{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.ch11 a{
+	display: block;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.ch11 a img{
+	padding-right: 10px;
+}
+.ch12 h1{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.ch12 input{
+	padding: 8px 170px 8px 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #787878;
+    border-radius: 49px;
+    border: none;
+    outline: none;
+}
+.ch12 button{
+	padding: 5px 28px 5px 28px;
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: #023688;
+    border-radius: 44px;
+    margin-left: 5px;
+}
+.ch12 button:hover{
+	background-color: white;
+	color: black;
+}
+.ch12 .ch13{
+	padding-left: 0px;
+}
+.ch12 img{
+	padding-left: 10px;
+	padding-top: 25px;
+}
+.ch14{
+	padding-top: 20px;
+}
+.condition{
+	width: 100%;
+	padding-bottom: 18px;
+	padding-top: 18px;
+	background-color: #0E0320;
+	border-top: 1px solid rgba(255, 255, 255, 0.42);
+}
+.ch15,.ch16{
+	padding-left: 80px;
+}
+.ch15 a{
+	font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.ch16 p{
+	font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 5px;
+}
+a{
+	text-decoration: none;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px){
+	.ch button{
+	padding: 7px 25px 7px 25px;
+	font-size: 15px;
+}
+.ch img{
+	padding-left: 10px;
+}
+.inrtxt{
+	padding: 20px 60px 0px 60px;
+    margin-bottom: -80px;
+}
+.inrtxt h4{;
+    font-size: 16px;
+}
+.inrtxt p{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.inrtxt button{
+	padding: 6px 30px 6px 30px;
+    font-size: 16px;
+    margin-bottom: -25px;
+}
+.ch6{
+	padding-left: 0px;
+}
+.ch7{
+	padding-left: 10px;
+}
+.our h1{
+    line-height: 61px;
+}
+.ch12 input{
+	padding: 8px 120px 8px 20px;
+    font-size: 16px;
+}
+.ch12 button{
+	padding: 6px 27px 6px 27px;
+    font-size: 16px;
+}
+.logo a{
+    font-size: 18px;
+}
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+	.nav li a{
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ch button{
+	padding: 6px 20px 6px 20px;
+    font-size: 12px;
+}
+.ch img{
+	padding-left: 0px;
+	margin-left: 5px;
+	width: 20px;
+	height: 20px;
+}
+.banr{
+	width: 100%;
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+.our h1{
+	font-size: 45px;
+	line-height: 50px;
+}
+.our button{
+	padding: 6px 20px 6px 20px;
+    font-size: 12px;
+}
+.inrtxt{
+	padding: 10px 40px 0px 40px;
+    margin-bottom: -50px;
+}
+.inrtxt h4{
+    font-size: 12px;
+    line-height: 20px;
+}
+.inrtxt p{
+    font-size: 12px;
+    padding-bottom: 0px;
+    line-height: 20px;
+}
+.inrtxt button{
+	padding: 4px 25px 4px 25px;
+    font-size: 12px;
+    margin-bottom: -25px;
+}
+.services{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.ch1 h1{
+	font-size: 30px;
+	padding-bottom: 20px; 
+}
+.ch2 h1{
+    font-size: 25px;
+    line-height: 30px;
+}
+.ch4{
+    font-size: 11px;
+    line-height: 15px;
+}
+.ch5{
+    font-size: 11px;
+    line-height: 15px;
+}
+.ch2 button{
+    font-size: 12px;
+    padding: 6px 20px 6px 20px;
+}
+.ch6{
+	padding-left: 0px;
+}
+.ch7{
+	padding-left: 10px;
+}
+.ch7 h1{
+    font-size: 30px;
+    line-height: 35px;
+}
+.ch7 p{
+    font-size: 12px;
+    line-height: 22px;
+}
+.ch7 input{
+    font-size: 10px;
+    padding: 8px 10px 8px 10px;
+    margin-top: 20px;
+}
+.ch7 input[type=number] {
+    margin-left: 10px;
+}
+#last{
+	margin-left: 10px;
+}
+.ch7 button{
+    font-size: 10px;
+    line-height: 21px;
+    padding: 8px 20px 8px 20px;
+    margin-left: 190px;
+}
+.ch7 .comment{
+	margin-bottom: 20px;
+	padding: 8px 170px 30px 8px;
+}
+.ch10 p{
+    font-size: 11px;
+    line-height: 15px;
+    padding-top: 0px;
+}
+.ch10 h2{
+    font-size: 14px;
+    line-height: 17px;
+}
+.ch10 h3{
+    font-size: 14px;
+    line-height: 17px;
+}
+.ch11 h1{
+    font-size: 18px;
+}
+.ch11 a{
+    font-size: 12px;
+    line-height: 20px;
+}
+.ch11 a img{
+	padding-right: 10px;
+}
+.ch12 h1{
+    font-size: 18px;
+}
+.ch12 input{
+	padding: 8px 100px 8px 10px;
+    font-size: 12px;
+}
+.ch12 button{
+	padding: 4px 20px 4px 20px;
+    font-size: 12px;
+}
+.ch15,.ch16{
+	padding-left: 0px;
+}
+.ch15 a{
+    padding-left: 15px;
+}
+.logo a{
+    font-size: 16px;
+}
+.ch10 h1{
+    font-size: 18px;
+}
+}
+@media screen and (max-width: 767px) and (min-width: 576px){
+	.nav li a{
+    font-size: 11px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.logo{
+	padding-top: 28px;
+}
+.logo a{
+    font-size: 16px;
+}
+.hdr{
+	display: flex;
+	justify-content: center;
+}
+.ch button{
+	padding: 2px 15px 2px 15px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.ch img{
+	padding-left: 0px;
+	width: 15px;
+	height: 15px;
+	margin-top: 20px;
+}
+.ch{
+	padding-top: 8px;
+	padding-bottom: 20px;
+}
+.logo img{
+	padding-top: 10px;
+	height: 40px;
+	width: 40px;
+}
+.banr{
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.our h1{
+	font-size: 35px;
+	line-height: 40px;
+}
+.our button{
+	padding: 2px 15px 2px 15px;
+    font-size: 10px;
+}
+.inrtxt{
+	padding: 10px 20px 0px 20px;
+    margin-bottom: -40px;
+}
+.inrtxt h4{
+    font-size: 10px;
+    line-height: 15px;
+}
+.inrtxt p{
+    font-size: 10px;
+    padding-bottom: 0px;
+    line-height: 10px;
+}
+.inrtxt button{
+	padding: 4px 25px 4px 25px;
+    font-size: 12px;
+    margin-bottom: -25px;
+}
+.services{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.ch1 h1{
+	font-size: 30px;
+	padding-bottom: 20px; 
+}
+.ch2 h1{
+    font-size: 20px;
+    line-height: 20px;
+}
+.ch4{
+    font-size: 8px;
+    line-height: 13px;
+}
+.ch5{
+    font-size: 8px;
+    line-height: 13px;
+}
+.ch2 button{
+    font-size: 10px;
+    padding: 4px 15px 4px 15px;
+}
+.ch6{
+	padding-left: 0px;
+}
+.ch7{
+	padding-left: 10px;
+}
+.ch7 h1{
+    font-size: 20px;
+    line-height: 20px;
+}
+.ch7 p{
+    font-size: 9px;
+    line-height: 12px;
+}
+.ch7 input{
+    font-size: 8px;
+    padding: 6px 10px 6px 6px;
+    margin-top: 10px;
+}
+.ch7 input[type=number] {
+    margin-left: 10px;
+}
+#last{
+	margin-left: 10px;
+}
+.ch7 button{
+    font-size: 9px;
+    line-height: 21px;
+    padding: 6px 15px 6px 15px;
+    margin-left: 148px;
+}
+.ch7 .comment{
+	margin-bottom: 20px;
+	padding: 6px 140px 20px 6px;
+}
+.ch10 p{
+    font-size: 8px;
+    line-height: 12px;
+}
+.ch10 h2{
+    font-size: 9px;
+    line-height: 8px;
+}
+.ch10 h3{
+    font-size: 9px;
+    line-height: 8px;
+}
+.ch11 h1{
+    font-size: 14px;
+}
+.ch11 a{
+    font-size: 10px;
+    line-height: 15px;
+}
+.ch11 a img{
+	padding-right: 10px;
+}
+.ch12 h1{
+    font-size: 14px;
+}
+.ch12 input{
+	padding: 0px 30px 0px 10px;
+    font-size: 10px;
+}
+.ch12 button{
+	padding: 0px 20px 0px 20px;
+    font-size: 10px;
+}
+.ch10 img{
+	width: 40px;
+	height: 40px;
+	padding-bottom: 10px;
+}
+.ch14{
+	padding-top: 5px;
+}
+.ch12 img{
+	padding-top: 15px;
+}
+.ch15,.ch16{
+	padding-left: 0px;
+}
+.ch15 a{
+    padding-left: 10px;
+    font-size: 10px;
+}
+.ch16 p{
+    font-size: 10px;
+}
+.ch10 h1{
+	font-size: 14px;
+}
+}
+@media screen and (max-width: 575px){
+	.hdr{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+	#toggle{
+		margin-right: 20px;
+	}
+	.nav{
+		display: flex;
+		flex-direction: column;
+		text-align: right;
+	}
+	.nav li a{
+    font-size: 12px;
+    padding: 5px 20px 5px 0px;
+}
+.ch{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ch button{
+	padding: 1px 15px 1px 15px;
+    font-size: 10px;
+}
+.ch img{
+	padding-left: 0px;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+}
+#toggle i{
+	color: white;
+	margin-top: 20px;
+	display: block;
+	font-size: 20px;
+}
+.banr{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-position: center;
+}
+.our h1{
+	font-size: 22px;
+	line-height: 25px;
+}
+.our button{
+	padding: 2px 15px 2px 15px;
+    font-size: 10px;
+}
+.our button{
+	padding: 3px 20px 3px 20px;
+    font-size: 12px;
+}
+.innr{
+	margin-bottom: 100px;
+}
+.inrtxt{
+	padding: 10px 60px 0px 60px;
+    margin-bottom: -70px;
+}
+.inrtxt h4{
+    font-size: 16px;
+    line-height: 30px;
+}
+.inrtxt p{
+    font-size: 16px;
+    padding-bottom: 0px;
+    line-height: 15px;
+}
+.inrtxt button{
+	padding: 6px 35px 6px 35px;
+    font-size: 18px;
+    margin-bottom: -25px;
+}
+.services{
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+.ch1 h1{
+	font-size: 30px;
+	padding-bottom: 20px; 
+}
+.ch2 h1{
+    font-size: 20px;
+    line-height: 20px;
+}
+.ch4{
+    font-size: 10px;
+    line-height: 13px;
+}
+.ch5{
+    font-size: 10px;
+    line-height: 13px;
+}
+.ch2 button{
+    font-size: 10px;
+    padding: 4px 15px 4px 15px;
+}
+.ch2{
+	padding-top: 0px;
+	padding-left: 10px;
+}
+.ch3{
+	margin-top: 30px;
+}
+.about{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.ch6{
+	padding-left: 0px;
+}
+.ch7{
+	padding-left: 15px;
+	padding-top: 20px;
+}
+.ch7 h1{
+    font-size: 25px;
+    line-height: 20px;
+}
+.ch7 p{
+    font-size: 10px;
+    line-height: 15px;
+}
+.ch7 input{
+    font-size: 10px;
+    padding: 6px 10px 6px 6px;
+    margin-top: 10px;
+}
+.ch7 input[type=number] {
+    margin-left: 10px;
+}
+#last{
+	margin-left: 10px;
+}
+.ch7 button{
+    font-size: 9px;
+    line-height: 21px;
+    padding: 6px 15px 6px 15px;
+    margin-left: 195px;
+}
+.ch7 .comment{
+	margin-bottom: 20px;
+	padding: 6px 165px 20px 6px;
+    font-size: 10px;
+}
+.make {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.ch10 p{
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 0px;
+}
+.ch10 h2{
+    font-size: 14px;
+    line-height: 8px;
+}
+.ch10 h3{
+    font-size: 14px;
+    line-height: 8px;
+}
+.ch11 h1{
+    font-size: 14px;
+}
+.ch11 a{
+    font-size: 12px;
+    line-height: 15px;
+}
+.ch11 a img{
+	padding-right: 10px;
+}
+.ch12 h1{
+    font-size: 14px;
+}
+.ch12 input{
+	padding: 0px 30px 0px 10px;
+    font-size: 10px;
+}
+.ch12 button{
+	padding: 0px 20px 0px 20px;
+    font-size: 10px;
+}
+.ch10 h1{
+	padding-bottom: 0px;
+}
+.ch10 i{
+	padding-right: 10px;
+}
+.ch14{
+	padding-top: 0px;
+}
+.ch12 img{
+	padding-top: 15px;
+}
+.ch11{
+	padding-left: 15px;
+	padding-top: 20px;
+}
+.ch12{
+	padding-left: 15px;
+	padding-top: 20px;
+}
+.link{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.nav{
+	display: none;
+}
+.ch15,.ch16{
+	padding-left: 10px;
+}
+.ch15 a{
+    padding-left: 10px;
+    font-size: 10px;
+}
+.ch16 p{
+    font-size: 10px;
+}
+.logo{
+	padding-top: 18px;
+	padding-left: 15px;
+}
+.condition{
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+.slide{
+    padding-top: 20px;
+}
+.ch8 h1{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+}
